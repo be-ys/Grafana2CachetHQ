@@ -1,0 +1,17 @@
+{
+	"cachethq_url": "http://status.my_awesome_company.net/",
+	"monitoring": {
+		"enable_scheduler": true,
+		"url": "http://monitoring.private.my_awesome_company.local/",
+		"service_name": "monitoring",
+		"cachethq_token": "Your cachet token goes here"
+	},
+	"server_port": 8080,
+	"sql_configuration": {
+		"username": "root",
+		"password": "root",
+		"host": "localhost",
+		"port": 3306,
+		"database": "cachet"
+	}
+}
